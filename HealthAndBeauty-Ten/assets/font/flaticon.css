@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 19/06/2019 11:19
+  	Creation date: 25/06/2019 06:51
   	*/
 
 @font-face {
@@ -30,17 +30,8 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-flower:before { content: "\f100"; }
-.flaticon-yoga:before { content: "\f101"; }
-.flaticon-mortar:before { content: "\f102"; }
-.flaticon-soup:before { content: "\f103"; }
-.flaticon-music:before { content: "\f104"; }
-.flaticon-mind:before { content: "\f105"; }
-.flaticon-brain:before { content: "\f106"; }
-.flaticon-consultation:before { content: "\f107"; }
-.flaticon-bathrobe:before { content: "\f108"; }
-.flaticon-facebook-logo:before { content: "\f109"; }
-.flaticon-twitter-logo-silhouette:before { content: "\f10a"; }
-.flaticon-google-plus-logo:before { content: "\f10b"; }
-.flaticon-tumblr-letter-logo:before { content: "\f10c"; }
-.flaticon-instagram-social-network-logo-of-photo-camera:before { content: "\f10d"; }
+.flaticon-keyboard-right-arrow-button:before { content: "\f100"; }
+.flaticon-left-arrow-key:before { content: "\f101"; }
+.flaticon-old-typical-phone:before { content: "\f102"; }
+.flaticon-placeholder-filled-point:before { content: "\f103"; }
+.flaticon-global:before { content: "\f104"; }
