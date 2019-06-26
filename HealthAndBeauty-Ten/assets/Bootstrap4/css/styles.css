@@ -1,4 +1,4 @@
-﻿/*================================= 
+﻿/*=================================
         Font-Family's Start
   =================================*/
 @font-face {
@@ -32,7 +32,7 @@ html, body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-/*================================= 
+/*=================================
     Navbar Section Styling
   =================================*/
 #home {
@@ -242,7 +242,7 @@ html, body {
     display: flex;
     zoom: 1;
 }
-/*================================= 
+/*=================================
        Abuot Section Styling
   =================================*/
 #about {
@@ -297,7 +297,7 @@ html, body {
     .btn-subscribe:hover {
         color: #ff5065;
     }
-/*================================= 
+/*=================================
       Product Section Styling
   =================================*/
 #product {
@@ -336,7 +336,7 @@ html, body {
     box-shadow: 2.5px 4.33px 5px 0px rgba(255, 80, 101, 0.5);
 }
 
-/*================================= 
+/*=================================
         Slider Section Styling
   =================================*/
 #slider {
@@ -482,7 +482,7 @@ html, body {
     display: inline-block;
     zoom: 1;
 }
-/*================================= 
+/*=================================
       Contact Section Styling
   =================================*/
 .contact-bg-banner {
@@ -496,6 +496,9 @@ html, body {
     width: 100%;
     height: 56px;
     padding: 18px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'ProximaNova-Regular';
     border-left: 2px solid #ffffff;
     border-top: 2px solid #ffffff;
     border-right: 1px solid #bfbfbf;
@@ -508,6 +511,9 @@ html, body {
     width: 100%;
     height: auto;
     padding: 18px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'ProximaNova-Regular';
     border-left: 2px solid #ffffff;
     border-top: 2px solid #ffffff;
     border-right: 1px solid #bfbfbf;
@@ -590,7 +596,7 @@ html, body {
 }
 
 
-/*================================= 
+/*=================================
           Read More Styling
   =================================*/
 .comments-space {
