@@ -1,7 +1,7 @@
 ﻿
 /*================== Read More Text ==================*/
 $(function () {
-    var showChar = 550;
+    var showChar = 750;
     var moretext = "Read More";
     var lesstext = "Read Less";
     $('.comments-space').each(function () {
@@ -131,7 +131,7 @@ $(function () {
 $(document).ready(function () {
 
     $('.loadMore').loadMoreResults({
-        displayedItems: 8,
+        displayedItems: 16,
         showItems: 4
     });
 
@@ -140,58 +140,96 @@ $(document).ready(function () {
 /*===================== Owl Carousel Slider ======================*/
 //Init the carousel
 $(function () {
-    var loru = $('#owl-one');
-    loru.owlCarousel({
-        loop: false,
-        margin: 20,
-        dots: false,
+    $('#owl-two').owlCarousel({
+        loop: true,
+        margin: 0,
+        dots: true,
         nav: false,
-        slideBy: 4,
-        item: 4,
-        navText: ["<img src='assets/Images/icon.png'  class='img-margin-prev'> ", "<img src='assets/Images/icon.png'  class='img-margin-next'> "],
+        slideBy: 1,
+        item: 1,
+
         responsiveClass: true,
         responsive: {
             0: {
                 items: 1,
-                dots: false,
+                dots: true,
                 nav: false,
             },
             400: {
                 items: 1,
-                dots: false,
+                dots: true,
                 nav: false,
             },
             600: {
-                items: 2,
-                dots: false,
+                items: 1,
+                dots: true,
                 nav: false,
             },
             768: {
-                items: 3,
-                dots: false,
+                items: 1,
+                dots: true,
                 nav: false,
             },
             830: {
-                items: 4,
-                dots: false,
+                items: 1,
+                dots: true,
                 nav: false,
             },
             1000: {
-                items: 4,
-                dots: false,
+                items: 1,
+                dots: true,
                 nav: false,
             }
         }
     });
 
-    $('.customNextBtn').click(function () {
-        loru.trigger('next.owl.carousel');
+
+});
+$(function () {
+    $('#owl-one').owlCarousel({
+        loop: true,
+        margin: 20,
+        dots: false,
+        nav: true,
+        slideBy: 6,
+        item: 1,
+        navText: ["<i class='flaticon-left-arrow-key'></i>", "<i class='flaticon-keyboard-right-arrow-button'></i> "],
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                dots: false,
+                nav: true,
+            },
+            400: {
+                items: 1,
+                dots: false,
+                nav: true,
+            },
+            600: {
+                items: 4,
+                dots: false,
+                nav: true,
+            },
+            768: {
+                items: 3,
+                dots: false,
+                nav: true,
+            },
+            830: {
+                items: 5,
+                dots: false,
+                nav: true,
+            },
+            1000: {
+                items: 6,
+                dots: false,
+                nav: true,
+            }
+        }
     });
 
-    $('.customPrevBtn').click(function () {
 
-        loru.trigger('prev.owl.carousel', [300]);
-    });
 });
 $(function () {
     $('.owl-carousel').owlCarousel({
@@ -255,7 +293,7 @@ $(function () {
 });
 /*===================== Another Load More Script ======================*/
 $(function () {
-    $(".no-display").slice(0, 8).show();
+    $(".no-display").slice(0, 16).show();
     $("#load-more").on('click', function (e) {
         e.preventDefault();
         $(".no-display:hidden").slice(0, 4).slideDown();
@@ -272,13 +310,13 @@ $(function () {
 });
 
 $(function () {
-    $(".display-hidden").slice(0, 8).show();
-    $("#load-me").on('click', function (e) {
+    $(".none-display").slice(0, 3).show();
+    $("#load-another").on('click', function (e) {
         e.preventDefault();
-        $(".display-hidden:hidden").slice(0, 4).slideDown();
-        if ($(".display-hidden:hidden").length == 0) {
-            $("#load-me").fadeOut('slow');
-            $(".team-load-border").fadeOut('slow');
+        $(".none-display:hidden").slice(0, 3).slideDown();
+        if ($(".none-display:hidden").length == 0) {
+            $("#load-another").fadeOut('slow');
+            $(".btn-blog-load").fadeOut('slow');
 
         }
         $('html,body').animate({
@@ -288,6 +326,4 @@ $(function () {
 });
 //kjshfkjshsahkjdsahdjks
 
-$(function () {
 
-});
