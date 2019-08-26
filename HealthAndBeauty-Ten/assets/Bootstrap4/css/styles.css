@@ -303,7 +303,7 @@ html, body {
 #product {
     transform: translateY(30px);
     padding: 60px 0;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -429,6 +429,8 @@ html, body {
 .desc-text {
     font-size: 17px;
     color: #3c3c3c;
+    line-height: 30px;
+    letter-spacing: .6px;
     font-family: 'ProximaNova-Regular';
 }
 
@@ -1646,6 +1648,10 @@ button:focus {
         height: 2px;
         bottom: 19px;
         left: 42%;
+    }
+
+    .ml-9 {
+        margin-left: 0;
     }
 
     .nav-item {
